@@ -49,7 +49,7 @@ var calc = (function() {
             console.log(n); // Print the current step to the console
 
             if (n == 1 || n == 0) {
-            // As defined by Collatz: If n is 1, we're done. The 0 just checks for people trying to break things.
+            // If n is 1, we're done. The 0 just checks for people trying to break things.
                 console.log("Done!");
                 return n
             } else if ((n%2) == 0) { 
