@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <title>Recursive Calculations</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple calculator that converts a normal number to binary.">
+        <meta name="keywords" content="binary, calculator, converter, base two, recursion">
+        <meta name="author" content="Philipp Grunwald (@Groonworld)">
+        <meta name="copyright" content="Philipp Grunwald (@Groonworld)">
+
+        <script src="recursiveCalc.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper-grid">
+            Right now, this works in the console only. <p></p>
+            You can call any of the following functions: <p></p>
+                
+            calc.collatz(n): Will give you the Collatz-Sequence of n.<br>
+            calc.factorial(n): Will calculate n!, that is, the factorial of n.<br>
+            calc.baseConv(n, base, []): Will convert n to a number of whatever base you specified. 
+            The third argument needs to be an empty array, because changing this just isn't worth 
+            the effort for now. <p></p>
+
+
+            TODO: 1) Implement HTML-elements for input/output<br>
+            TODO: 2) Output-elements of baseConv() that are >= 10 need conversion to letters, so that 10 = A, 11 = B, and so on.<br>
+            TODO: 3) Output of baseConv() needs to be converted from an array to a number or string.  
+
+        </div>
+    </body>
+</html>
